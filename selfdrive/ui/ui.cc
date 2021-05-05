@@ -327,9 +327,9 @@ static void update_status(UIState *s) {
       s->vipc_client->connected = false;
     }
   }
-UI 편집용*/  
 
   started_prev = s->scene.started;
+  UI 편집용*/ 
 }
 
 static void update_extras(UIState *s)
