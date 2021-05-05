@@ -308,7 +308,8 @@ static void update_status(UIState *s) {
       s->status = s->scene.controls_state.getEnabled() ? STATUS_ENGAGED : STATUS_DISENGAGED;
     }
   }
-
+	
+/* UI 편집용
   // Handle onroad/offroad transition
   static bool started_prev = false;
   if (s->scene.started != started_prev) {
@@ -326,8 +327,10 @@ static void update_status(UIState *s) {
       s->vipc_client->connected = false;
     }
   }
+  
   started_prev = s->scene.started;
 }
+UI 편집용*/ 
 
 static void update_extras(UIState *s)
 {
